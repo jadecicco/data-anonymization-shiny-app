@@ -1,12 +1,10 @@
-#https://uofi.box.com/s/ikq03axowd3i2dpi5aggpnasib9eajwx
-
 library(shiny)
 library(tidyverse)
 library(stringr)
 
 ui <- fluidPage(
   
-  titlePanel("THE ANONYMOUS-INATOR"),
+  titlePanel("Data Anonymization Tool"),
   
   sidebarLayout(
     sidebarPanel(
